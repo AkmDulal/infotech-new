@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1440" height="620" viewBox="0 0 1440 620">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #2cdd5b;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #6beb8d;
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-1 {
+        filter: url(#inner-shadow-1);
+        opacity: 0.13;
+      }
+
+      .cls-2 {
+        filter: url(#filter-chain-1);
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #fdfdfd;
+      }
+
+      .cls-3 {
+        stroke-width: 3px;
+        filter: url(#color-overlay-1);
+      }
+
+      .cls-4 {
+        filter: url(#color-overlay-5);
+      }
+    </style>
+
+    <filter id="inner-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.385" result="innerShadowBlur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.74"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="screen" in2="SourceGraphic" result="innerShadow"/>
+    </filter>
+    <filter id="filter-chain-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#54ea7b"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+      <feOffset dy="10" in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.327" result="innerShadowBlur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.21"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="screen" in2="solidFill" result="innerShadow"/>
+    </filter>
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#74ee93"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-5" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#e9faed"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+  </defs>
+  <g style="fill: #2cdd5b; filter: url(#inner-shadow-1)">
+    <path d="M817.000,691.000 L817.000,711.000 L431.000,711.000 L431.000,691.000 L431.000,691.000 L431.000,711.000 L235.000,711.000 L234.000,711.000 L45.000,711.000 L45.000,709.000 L-94.000,709.000 L-94.000,691.000 L-162.000,691.000 L-162.000,517.000 L-89.000,517.000 L45.000,463.400 L45.000,463.000 L234.000,447.084 L234.000,447.000 L431.000,379.000 L431.000,517.000 L431.000,517.000 L431.000,379.000 L817.000,379.000 L817.000,517.000 L961.000,517.000 L961.000,691.000 L817.000,691.000 ZM-238.000,548.667 L-162.000,517.000 L-162.000,671.000 L-238.000,671.000 L-238.000,548.667 Z" id="path-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-1"/>
+  </g>
+  <use xlink:href="#path-1" style="stroke: #6beb8d; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#filter-chain-1)">
+    <path d="M1959.000,661.000 L1959.000,673.000 L1440.000,673.000 L1440.000,673.000 L1304.000,673.000 L1303.000,673.000 L1104.000,673.000 L1104.000,661.000 L525.000,661.000 L525.000,685.000 L328.000,685.000 L328.000,682.000 L139.000,682.000 L139.000,661.000 L-558.000,661.000 L-558.000,624.858 L-485.836,542.000 L2.222,542.000 L139.000,511.225 L139.000,511.000 L329.000,460.500 L329.000,460.901 L525.000,441.500 L525.000,442.000 L720.000,359.500 L720.000,359.000 L910.438,329.587 L1104.000,147.000 L1304.000,122.000 L1304.000,122.672 L1440.000,78.000 L1440.000,78.000 L1959.000,78.000 L1959.000,542.000 L2009.000,542.000 L2009.000,661.000 L1959.000,661.000 Z" id="path-2" style="stroke: inherit; filter: none; fill: inherit" class="cls-2"/>
+  </g>
+  <use xlink:href="#path-2" style="stroke: #6beb8d; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-1)">
+    <circle cx="328" cy="461" r="5" id="circle-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-3"/>
+  </g>
+  <use xlink:href="#circle-1" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-1)">
+    <circle cx="140" cy="511" r="5" id="circle-2" style="stroke: inherit; filter: none; fill: inherit" class="cls-3"/>
+  </g>
+  <use xlink:href="#circle-2" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-1)">
+    <circle cy="542" r="5" id="circle-3" style="stroke: inherit; filter: none; fill: inherit" class="cls-3"/>
+  </g>
+  <use xlink:href="#circle-3" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-1)">
+    <circle cx="-484" cy="543" r="5" id="circle-4" style="stroke: inherit; filter: none; fill: inherit" class="cls-3"/>
+  </g>
+  <use xlink:href="#circle-4" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-5)">
+    <circle cx="47" cy="463" r="3.938" id="circle-5" style="stroke: inherit; filter: none; fill: inherit" class="cls-4"/>
+  </g>
+  <use xlink:href="#circle-5" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-5)">
+    <circle cx="-87" cy="517" r="3.938" id="circle-6" style="stroke: inherit; filter: none; fill: inherit" class="cls-4"/>
+  </g>
+  <use xlink:href="#circle-6" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-5)">
+    <circle cx="-160" cy="518" r="3.938" id="circle-7" style="stroke: inherit; filter: none; fill: inherit" class="cls-4"/>
+  </g>
+  <use xlink:href="#circle-7" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-5)">
+    <circle cx="234" cy="447" r="3.938" id="circle-8" style="stroke: inherit; filter: none; fill: inherit" class="cls-4"/>
+  </g>
+  <use xlink:href="#circle-8" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-5)">
+    <circle cx="429" cy="380" r="3.938" id="circle-9" style="stroke: inherit; filter: none; fill: inherit" class="cls-4"/>
+  </g>
+  <use xlink:href="#circle-9" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-1)">
+    <circle cx="525" cy="442" r="5" id="circle-10" style="stroke: inherit; filter: none; fill: inherit" class="cls-3"/>
+  </g>
+  <use xlink:href="#circle-10" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-1)">
+    <circle cx="720" cy="359" r="5" id="circle-11" style="stroke: inherit; filter: none; fill: inherit" class="cls-3"/>
+  </g>
+  <use xlink:href="#circle-11" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-1)">
+    <circle cx="911" cy="330" r="5" id="circle-12" style="stroke: inherit; filter: none; fill: inherit" class="cls-3"/>
+  </g>
+  <use xlink:href="#circle-12" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-1)">
+    <circle cx="1104" cy="147" r="5" id="circle-13" style="stroke: inherit; filter: none; fill: inherit" class="cls-3"/>
+  </g>
+  <use xlink:href="#circle-13" style="stroke: #fdfdfd; filter: none; fill: none"/>
+  <g style="fill: #2cdd5b; filter: url(#color-overlay-1)">
+    <circle cx="1304" cy="123" r="5" id="circle-14" style="stroke: inherit; filter: none; fill: inherit" class="cls-3"/>
+  </g>
+  <use xlink:href="#circle-14" style="stroke: #fdfdfd; filter: none; fill: none"/>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Hamburger Icon</title>
+    <desc>Made By Aiva</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <path d="M1,1 L25,1" id="Line" stroke="#332de5" stroke-width="2"></path>
+        <path d="M1,5.5 L25,5.5" id="Line" stroke="#332de5" stroke-width="2"></path>
+        <path d="M1,10.5 L25,10.5" id="Line" stroke="#332de5" stroke-width="2"></path>
+        <path d="M1,15.5 L25,15.5" id="Line" stroke="#332de5" stroke-width="2"></path>
+    </g>
+</svg>
